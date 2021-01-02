@@ -7,6 +7,8 @@ In this repo we propose 3 ways to sync the 3 sensors :
 * sync_node_stereo: to sync with the rate of one camera topic
 * sync_node_freq : to sync with a given rate
 
+**I recommend sync_node_freq**
+
 ## setup
 
 at the root of the repo
