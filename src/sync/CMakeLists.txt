@@ -165,6 +165,9 @@ add_executable(sync_node_stereo src/sync_node_stereo.cpp)
 target_link_libraries(sync_node_stereo ${catkin_LIBRARIES})
 add_dependencies(sync_node_stereo beginner_tutorials_generate_messages_cpp)
 
+add_executable(sync_node_freq_depth_map src/sync_node_freq_depth_map.cpp)
+target_link_libraries(sync_node_freq_depth_map ${catkin_LIBRARIES})
+add_dependencies(sync_node_freq_depth_map beginner_tutorials_generate_messages_cpp)
 
 #############
 ## Install ##
