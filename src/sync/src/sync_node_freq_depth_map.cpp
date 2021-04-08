@@ -12,7 +12,7 @@
 const char* lidar = "/os1_cloud_node/points";
 const char* camera0 = "/Camera/camera0_image";
 const char* camera1 = "/Camera/camera1_image";
-const char* depth_map = "/.../...";
+const char* depth_map = "/img_node/range_image";
 
 
 using namespace message_filters;
